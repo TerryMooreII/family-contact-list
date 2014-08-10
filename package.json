@@ -1,0 +1,23 @@
+{
+  "name": "family-contact-list",
+  "version": "0.0.1",
+  "description": "Family Contact List",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "family",
+    "contact",
+    "list"
+  ],
+  "author": "Terry Moore II",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^3.8.14",
+    "hapi": "^6.4.0",
+    "boom": "^2.5.1",
+    "joi": "^4.6.2"
+  }
+}
