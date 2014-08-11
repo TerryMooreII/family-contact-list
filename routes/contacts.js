@@ -56,9 +56,9 @@ exports.getById = function (server) {
             }
         },
         handler: function (request, reply) {
-            Person.findById(request.params.id, function (err, event) {
-                if (!err && event) {
-                    reply(event);
+            Person.findById(request.params.id, function (err, person) {
+                if (!err && person) {
+                    reply(person);
                 } else if (err) {
                     console.log(err);
                     reply(Boom.notFound());
